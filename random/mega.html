@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Mega-Sena</title>
+    </head>
+
+<body>
+
+    <button>Clique para sortear 6 números</button>
+
+    <script>
+
+        let button = document.querySelector("button");
+        button.onclick = sorteia_num;
+
+        function sorteia() {
+
+            return Math.floor(Math.random() * 59) + 1;
+
+        }
+
+        function sorteia_num() {
+
+            let mega_Sena = [];
+            let num = 1;
+            let quant_max_num = 6;
+
+            while(num <= quant_max_num) {
+
+                let num_sorteados = sorteia();
+                let achou = false;
+
+                    for(posicao = 0; posicao < mega_Sena.length; posicao++) {
+
+                        if(mega_Sena[posicao] == num_sorteados) {
+
+                            achou = true;
+                            break;
+                        }
+                    }
+
+                    if(achou == false) {
+
+                        mega_Sena.push(num_sorteados);
+                        num++;
+                    }
+
+            }
+
+            mega_Sena.sort(function(a, b){return a - b});
+            alert("Os números da sorte são: " + mega_Sena);
+        }
+
+    </script>    
+</body>
+</html>
