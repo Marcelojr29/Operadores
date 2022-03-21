@@ -1,0 +1,67 @@
+Dicionário CSS
+
+TEXTOS E FONTES:
+* font-family: família de fonte utilizada (ex: Sarala)
+* font-style: estilo usado na fonte (ex: italic)
+* font-size: tamanho da fonte (ex: 12px)
+* font-weight: peso da fonte (ex: bold)
+* font-variant: altera a variante da fonte (ex: small-caps)
+* text-ident: recuo a esquerda da primeira linha(ex: 3em)
+* text-align: alinhamento do text (ex: left)
+* text-decoration: efeitos decorativos (ex: underline)
+* word/letter-spacing: espaçamento entre palavras/letras
+(ou também é possível utilizar os atalhos para definir tudo em uma só propriedade:
+font)
+--------------------------------------------------------------------------------
+CORES E FUNDOS:
+* color: cor do texto (ex: #F3F3F3)
+* background-color: cor do fundo (ex: black)
+* backgroud-image: imagem do fundo (ex: url(http...))
+* background-repeat: define se a imagem de fundo repetirá (ex: no-repeat)
+* background-attachment: define se a imagem de fundo será fixada ou moverá conforme
+a página (ex: scroll)
+* background-position: posição da imagem de fundo (ex: right top)
+(ou também é possível utilizar os atalhos para definir tudo em uma só propriedade:
+background)
+--------------------------------------------------------------------------------
+BORDAS:
+* border-top-width, border-right-width, border-bottom-width, border-left-width:
+Largura das bordas nos quatro quadrantes (ex: medium)
+* border-top-color, border-right-color, border-bottom-color, border-left-color:
+Cor das bordas nos quatro quadrantes (ex: black)
+* border-top-style, border-right-style, border-bottom-style, border-left-style:
+Definição de estilos das bordas nos quatro quadrantes (ex: dotted)
+(ou também é possível utilizar os atalhos para definir tudo em uma só propriedade:
+border-width, border-color, border-style, border)
+--------------------------------------------------------------------------------
+MARGENS E ESPAÇAMENTOS:
+* margin-top, margin-right, margin-bottom, margin-left:
+Tamanho da margem para cada um dos quatro quadrantes (ex: 2em)
+* padding-top, padding-right, padding-bottom, padding-left:
+Distância utilizada para espaçamento nos quatro quadrantes (ex: 2em)
+(ou também é possível utilizar os atalhos para definir tudo em uma só propriedade:
+margin; padding)
+--------------------------------------------------------------------------------
+FORMATAÇÃO VISUAL:
+* display: forma de exibição do conteúdo (ex: inline)
+* position: posicionamento (ex: absolute)
+* float: posicionamento adjacente à esquerda ou à direita do elemento (ex: left)
+* clear: controle de limpeza do elemento float (ex: left)
+* direction: define a direção do texto de direita pra esquerda ou esquerda pra 
+direita (ex: ltr)
+* min-width/height: largura/altura minima (ex: 200px)
+* max-width/height: largura/algura máxima (ex: 800px)
+* top, right, bottom, left: distância do elemento com relação à extremidades de
+seu elemento pai (ex: 20px)
+--------------------------------------------------------------------------------
+CONTORNOS E TABELAS:
+* cursor: especifica o cursor (ex: pointer)
+* outline width: largura da linha de contorno
+* outline-style: estilo da linha de contorno (ex: dotted)
+* outline-color: cor da linha de contorno (ex: #F22)
+* caption-side: posição do título da tabela (ex: bottom)
+* table-layout: define layout automático (ex: fixed)
+* border-collapse: modelo de borda usado (ex: collapse)
+* clear: controle de limpeza do elemento float (ex: left)
+* border-spacing: distância entre as células (ex: 15pt)
+* empty-cells: visibilidade de células vazias (ex: hide)
